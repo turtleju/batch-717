@@ -1,1 +1,69 @@
-/* TODO: design your profile with CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  background-color: rgb(220, 220, 220);
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.white-box {
+  padding: 24px;
+  margin: 24px auto;
+  width: 800px;
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);                       /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#footer > li > a {
+  font-size: 48px;
+  color: rgb(230, 230, 230);
+}
+
+#footer > li > a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn-black {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.btn-black:hover {
+  background-color: #f91116;
+}
