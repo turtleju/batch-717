@@ -1,0 +1,14 @@
+.btn-hidden {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  padding: 4px 8px;
+  background-color: #FFFFFF;
+  color: #000000;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.card-white-photo:hover .btn-hidden {
+  opacity: 1;
+}
